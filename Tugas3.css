@@ -1,0 +1,42 @@
+img {
+  width: 200px;
+}
+#MyImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 50%;
+}
+th {  
+  text-align: left;
+  padding: 8px;
+}
+th#G {
+  color: gold;
+}
+th#S {
+  color: silver;
+}
+th#B {
+  color: brown;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+caption {
+  font-family: verdana;
+  font-size:150%;
+}
+a {
+  color: red; 
+  background-color: transparent;
+  text-decoration: none;
+}
+input#T {
+  height: 60px;
+  width: 500px;
+}
